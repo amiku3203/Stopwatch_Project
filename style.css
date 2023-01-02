@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color:darkcyan; */
+    /* background-image: conic-gradient(from 90deg, red, yellow, green); */
+    background-image: conic-gradient(at 60% 45%, red, yellow, rgb(37, 32, 112));
+    border: 2px solid black;
+}
+
+
+/* heading name style */
+h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(196, 228, 255);
+    font-family: monospace;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(9, 9, 129);
+ }
+
+
+/* stopwatch main  containor */
+.containor{
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+     margin-top: 10%;
+     height: 50%;
+     width: 50%;
+     border: 2px solid black;
+     border-radius: 30%;
+     box-shadow: 8px 8px 8px 8px white, 8px 8px 8px 8px white;
+}
+.stopwatch-containor{
+      margin:auto ;
+    display: flex;
+    flex-direction: row;
+     margin-top: 10%;
+    
+    }
+p{
+    display: inline;
+    color: white;
+    font-size: 50px;
+}
+.setup{
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+/* opreation on button */
+.button-setup{
+         
+ margin: auto;
+}
+ button{  
+    font-family: monospace;
+    outline:none;
+    border-radius: 10px ;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px white, 2px 2px 2px 2px white;
+    /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(136, 0, 255), 0 0 5px darkblue; */
+ }
+
+ 
+ /*for responsive */
+ @media screen and (max-width:450px) {
+        p{
+         font-size: 10px;   
+       }
+       button{
+        font-size: 5px;
+       }
+ }
+
+ 
